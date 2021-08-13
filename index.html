@@ -19,29 +19,26 @@
         <button class="w3-bar-item w3-button" onclick="openOption('Tools')">Paris</button>
         <button class="w3-bar-item w3-button" onclick="openOption('Members')">Tokyo</button>
       </div>
-      <div id="London" class="w3-container city">
+      <div id="London" class="w3-container option">
         <h2>London</h2>
         <p>London is the capital city of England.</p>
       </div>
-
-      <div id="Paris" class="w3-container city" style="display:none">
+      <div id="Paris" class="w3-container option" style="display:none">
         <h2>Paris</h2>
         <p>Paris is the capital of France.</p> 
       </div>
-
-      <div id="Tokyo" class="w3-container city" style="display:none">
+      <div id="Tokyo" class="w3-container option" style="display:none">
         <h2>Tokyo</h2>
         <p>Tokyo is the capital of Japan.</p>
       </div>
-
       <script>
-        function openCity(cityName) {
+        function openOption(option) {
           var i;
-          var x = document.getElementsByClassName("city");
+          var x = document.getElementsByClassName("option");
           for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";  
         }
-        document.getElementById(cityName).style.display = "block";  
+        document.getElementById(option).style.display = "block";  
         }
       </script>
     </header>
