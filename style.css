@@ -5,13 +5,6 @@
   font-family: 'Lato', sans-serif;
   font-family: 'Oswald', sans-serif;
 }
-.body{
-  background-image: url("https://i.pinimg.com/originals/7c/f9/07/7cf90778e8cd4ea1c25abf6c0d4a0f9e.gif");
-  background-size: cover;
-  height: 100vh;
-  padding:0;
-  margin:0;
-}
 .wrapper{
   position: fixed;
   top: 0;
