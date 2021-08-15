@@ -5,6 +5,10 @@
   font-family: 'Lato', sans-serif;
   font-family: 'Oswald', sans-serif;
 }
+html {
+  background: url("https://i.pinimg.com/originals/66/85/bc/6685bc837a85b18df2976e844c69a9a8.gif") no-repeat center center fixed; 
+  background-size: cover;
+}
 .wrapper{
   position: fixed;
   top: 0;
